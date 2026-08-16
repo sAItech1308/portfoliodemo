@@ -1,0 +1,16 @@
+:root {
+  --paper: #f4f3ef;
+  --hero-surface: #f0efeb;
+  --hero-dark: #18242d;
+  --hero-cyan: #dce7ea;
+  --hero-violet: #8f91ff;
+  --ink: #111311;
+  --muted: #6e706a;
+  --line: rgba(17, 19, 17, 0.14);
+  --acid: #b5ee52;
+  --cyan: #2ce8e5;
+  --max-width: 1440px;
+  --pad: clamp(1.25rem, 4vw, 4.5rem);
+  --radius: 1.25rem;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

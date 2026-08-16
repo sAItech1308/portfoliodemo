@@ -1,0 +1,53 @@
+@media (max-width: 900px) {
+  .desktop-nav { display: none; }
+  .site-header { grid-template-columns: 1fr 1fr; }
+  .hero { min-height: 920px; align-items: start; padding-top: 8.5rem; }
+  .hero-copy { width: 100%; }
+  .hero h1 { font-size: clamp(3.7rem, 14vw, 7rem); }
+  .hero-intro { width: 90%; }
+  .portrait-stage { width: 100%; height: 62%; top: auto; right: 0; bottom: 0; }
+  .portrait-stage::after { display: none; }
+  .portrait, .portrait-fallback { object-position: 67% center; }
+  .hero-copy { pointer-events: none; }
+  .hero-copy a { pointer-events: auto; }
+  .section-heading, .experience-section .section-heading { grid-template-columns: 1fr; gap: 1.5rem; }
+  .section-heading > p:last-child { margin-left: 20%; }
+  .project-card, .project-secondary { grid-template-columns: 1fr; }
+  .project-secondary .project-copy { order: 2; }
+  .project-visual { min-height: 520px; }
+  .about-statement { grid-template-columns: 1fr; gap: 2rem; }
+  .about-grid { grid-template-columns: 1fr 1fr; }
+  .about-grid div:nth-child(2) { border-right: 0; }
+  .about-grid div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .skills { grid-template-columns: 1fr; gap: 1rem; }
+  .career-step { grid-template-columns: 9rem 2.5rem 1fr; }
+  .timeline-rail { left: calc(9rem + 1.1rem); }
+  .expertise-strip { justify-content: flex-start; overflow-x: auto; }
+  .expertise-strip span { white-space: nowrap; }
+}
+
+@media (max-width: 620px) {
+  .header-cta { padding: .7rem .85rem; }
+  .brand > span:last-child { display: none; }
+  .hero { min-height: 820px; padding-top: 7.5rem; }
+  .hero-copy { z-index: 6; }
+  .hero-intro { font-size: .88rem; margin: 1.5rem 0; }
+  .hero-actions { gap: 1rem; }
+  .button { gap: 1rem; padding: .85rem 1rem; }
+  .text-link { font-size: .7rem; }
+  .portrait-stage { height: 55%; }
+  .project-visual { min-height: 390px; }
+  .career-step { grid-template-columns: 2.5rem 1fr; min-height: 31rem; }
+  .timeline-date { grid-column: 2; padding: 0 0 .8rem; }
+  .timeline-date strong { font-size: 2.5rem; }
+  .timeline-date span { margin-top: .45rem; }
+  .timeline-marker { grid-column: 1; grid-row: 1 / span 2; }
+  .experience-card { grid-column: 2; }
+  .timeline-rail { left: 1.1rem; bottom: 8rem; }
+  .education-item { grid-template-columns: 1fr; gap: .75rem; }
+  .education-item strong { justify-self: start; }
+  .timeline-item > p:last-child { margin-bottom: 1rem; }
+  .about-grid { margin: 4rem 0; }
+  footer { grid-template-columns: 1fr 1fr; gap: 1rem; }
+  footer > p:nth-child(2) { display: none; }
+}
