@@ -1,9 +1,0 @@
-{
-  "name": "sairam-portfolio",
-  "private": true,
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "npx serve .",
-    "check": "node --check src/scripts/main.js && node --check src/scripts/reveal-effect.js"
-  }
-}
