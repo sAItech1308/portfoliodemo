@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/index.html && cp -r src dist/src && cp -r public dist/public"
+    "build": "mkdir -p dist && cp index.html dist/index.html && cp -r src dist/src && cp -r public dist/public && echo '=== DIST CONTENTS ===' && find dist -maxdepth 3 -type f"
   }
 }
